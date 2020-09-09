@@ -6,7 +6,7 @@ body{
     padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
-
+    transition: all 0.2s;
 }
 
 #home{
@@ -60,7 +60,7 @@ width: 100%;
 }
 
 
-#CV{
+#job{
     position: absolute;
     z-index: 999;
     margin: 0 auto;
@@ -72,7 +72,7 @@ width: 100%;
     font-size: 2.1vw;
 }
 
-#CV a{
+#job a{
     color: black;
     font-size: 20px;
     font-size: 1.4vw;
@@ -120,6 +120,46 @@ width: 100%;
 
 .left #me{
     width: 150px;
-    border: 10px solid white;
+    border: 10px solid rgb(80, 149, 251);
     border-radius: 150px;
+}
+
+
+
+.icona img{
+    height: 45px;
+    height: 3.2vw;
+    margin: 0;
+    padding: 0;
+}
+
+.icona{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    width: 6vw;
+
+}
+
+.icona p{
+    font-size: 15px;
+    font-size: 1.1vw;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.icona a{
+    text-decoration: none;
+}
+
+#CV{
+    right: 36%;
+    top: 62%;
+}
+
+#GITHUB{
+    right: 23%;
+    top: 62%;
 }
