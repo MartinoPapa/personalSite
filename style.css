@@ -6,18 +6,18 @@ body{
     padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
+
 }
 
-.box{
+#home{
     position: relative;
     display: inline-block; /* Make the width of box same as image */
     width: 100%;
     margin: 0;
     padding: 0;
-    
 }
 
-.box .bg{
+#home .bg{
 width: 100%;
 }
 
@@ -32,8 +32,74 @@ width: 100%;
     font-size: 25px;
     font-size: 1.7vw;
     text-transform: uppercase;
+    transition: all 0.2s;
 }
 
 .scroll a{
+    text-decoration: none;
     color: white;
+}
+
+.scroll a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+
+#name{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 2.7%;
+    top: 26%;
+    width: 30%;
+    font-size: 25px;
+    font-size: 3.5vw;
+    text-transform: uppercase;
+}
+
+
+#job{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 2.7%;
+    top: 38%;
+    width: 35%;
+    font-size: 25px;
+    font-size: 2.1vw;
+}
+
+#topBar{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    height: 40px;
+    z-index: 999;
+}
+
+.right{
+    right: 10px;
+    top: 7px;
+    position: absolute;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.right span{
+    padding: 0px 15px;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.right span a{
+    text-decoration: none;
+    color: black;
+}
+
+.right a:hover{
+    color: rgb(80, 149, 251);
 }
