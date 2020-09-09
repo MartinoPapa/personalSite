@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body{
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.box{
+    position: relative;
+    display: inline-block; /* Make the width of box same as image */
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.box .bg{
+width: 100%;
+}
+
+#home .scroll{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 2.7%;
+    bottom: 26%;
+    width: 20%;
+    font-size: 25px;
+    font-size: 1.7vw;
+    text-transform: uppercase;
+}
+
+.scroll a{
+    color: white;
+}
