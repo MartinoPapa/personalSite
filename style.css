@@ -60,7 +60,7 @@ width: 100%;
 }
 
 
-#job{
+#CV{
     position: absolute;
     z-index: 999;
     margin: 0 auto;
@@ -70,6 +70,12 @@ width: 100%;
     width: 35%;
     font-size: 25px;
     font-size: 2.1vw;
+}
+
+#CV a{
+    color: black;
+    font-size: 20px;
+    font-size: 1.4vw;
 }
 
 #topBar{
@@ -89,7 +95,7 @@ width: 100%;
 }
 
 .right span{
-    padding: 0px 15px;
+    padding: 0px 20px;
     font-size: 20px;
     font-weight: 500;
 
