@@ -104,18 +104,18 @@ height: 100%;
 .right span{
     padding: 0px 20px;
     font-size: 20px;
-
     transition: all 0.2s;
 
 }
 
 .right span a{
     text-decoration: none;
-    color: rgb(80, 149, 251);
+    color: rgba(80, 149, 251, 1);
+    transition: all 0.2s;
 }
 
 .right a:hover{
-    font-weight: 600;
+    text-shadow: -2px 1px 17px rgba(80, 149, 251, 1);
 }
 
 .left{
