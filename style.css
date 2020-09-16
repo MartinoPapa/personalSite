@@ -128,7 +128,7 @@ height: 100%;
 
 .left #me{
     width: 200px;
-    border: 10px solid rgb(80, 149, 251);
+    border: 10px solid white;
     border-radius: 200px;
 }
 
@@ -147,15 +147,17 @@ height: 100%;
     margin: 0 auto;
     left: 0;
     width: 6vw;
-    top: 62%;
+    bottom: 28%;
 }
 
 .icoHover{
+    border: 1px solid transparent;
     transition: all 0.2s;
 }
 
 .icoHover:hover{
-    transform: scale(1.1);
+    border: 1px solid rgba(140, 140, 140, 1);
+    background-color: rgba(140, 140, 140, 0.8);
 }
 
 .icona p{
@@ -168,6 +170,7 @@ height: 100%;
 
 .icona a{
     text-decoration: none;
+    cursor: context-menu;
 }
 
 #CV{
